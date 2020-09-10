@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html, body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-color: #F7FFF7;
+    text-align: center;
+    align-content: center;
+    background-size: 100%;
+    
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background: #4ECDC4;
+    position: relative;
+    z-index: 10;
+}
+nav div {
+    color: #1A535C;
+}
+.site-title{
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: visible;
+    height: 10px;
+
+}
+nav ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0 2% auto 0;
+    text-align: right;
+    max-width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #1A535C;
+}
+
+.content{
+    max-width: 1300px;
+    max-height: 1000px;
+    height: 90%;
+    margin: auto;
+    padding-top: 5%;
+    padding-left: 30px;
+    padding-right: 10px;
+    text-align: left;
+    display: flex;
+}
+.content h1{
+    display: block;
+    color: #1A535C;
+    font-size: 60px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.leader {
+    color: #FF6B6B;
+}
+}
+.content h2{
+    display: block;
+    font-size: 20px;
+    color: #1A535C;
+    margin-block-start: 0em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content p{
+    display: block;
+    color: #895061;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.profile-pic{
+    float: right;
+    height: auto;
+    width: auto;
+    margin-left: 30px;
+}
+
+button {
+    color: #1A535C;
+    background-color: #FFE66D;
+    border:2px solid;
+    border-radius: 0px;
+    text-decoration:none;
+    display:inline-block;
+    padding:15px 15px;
+    font-size: 15px;
+    
+
+}
+button a{
+    text-decoration: none;
+    color: #1A535C;
+}
+
+.active2 {
+    background-color: #FFE66D;
+    height: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content2{
+    margin: auto;
+    max-width: 1300px;
+    max-height: 1000px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 100%;
+    background-color: #FFE66D;
+}
+.content2 h1{
+    color: #1A535C;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.content2 h2{
+    font-size: 17px;
+    color: #1A535C;
+}
+
+.content2 img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 64%;
+    display: flex;
+    margin-top: 3%;
+    position: relative;
+    bottom: 0;
+}
+
+.content2 button{
+    background-color: #F7FFF7;
+}
+
+.content3{
+    margin: auto;
+    max-width: 1300px;
+    max-height: 1000px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    background-color: #F7FFF7;
+    align-content: center;
+}
+.content3 h1{
+    color: #1A535C;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.content3 h2{
+    font-size: 20px;
+    color: #1A535C;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    
+    font-family: 'Poppins', sans-serif;
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #FF6B6B; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  #fname, #lname {
+      width: 49.5%;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #FF6B6B;
+    color: #1A535C;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #FFE66D;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .content4 {
+    display: flex;
+    width: 700px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+  
+@media only screen and (max-width: 700px){
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #4ECDC4;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+footer {
+    background-color: #4ECDC4;
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #1A535C;
+    color: #1A535C;
+    bottom: 0;
+  }
+  .footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-bottom li{
+    display: inline;
+    padding: 10px;
+  }
+  footer div ul li a{
+    text-decoration: none;
+    color: #1A535C;
+  }
+  footer div ul li a:hover{
+    text-decoration: underline;
+  }
